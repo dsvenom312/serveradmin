@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="reg.css">
+    <script src="index.js"></script>
+
+
+</head>
+<body>
+
+
+    <div class="container1">
+        
+        <div class="header1"><h1><strong>Register</strong></h1></div><hr>
+        <div id="error"></div>
+        <form  method="get" action="index2.html"  >
+            <label for="name"><strong>Name :</strong></label><br>
+            <input type="text" placeholder="enter name" name="name" id="name" required><br><br>
+
+            <label for="email"><strong>Email :</strong></label><br>
+            <input type="text" placeholder="enter email" name="email" id="email" required><br><br>
+        
+
+
+            <div class="gender1">
+                <p><strong>Gender</strong></p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male"><strong>Male</strong></label>
+            
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female"><strong>Female</strong></label>
+            </div><br><br>  
+
+            <div class="city1">
+                <label for="city"><strong>City :</strong></label><br>
+                <select name="city" id="city2" required>
+                    <option value="jakarta">Jakarta</option>
+                    <option value="bogor">Bogor</option>
+                    <option value="depok">depok</option>
+                    <option value="tangerang">tangerang</option>
+                    <option value="bekasi">bekasi</option>
+                    <option value="bandung">bandung</option>
+                    <option value="senayan">senayan</option>
+                </select> 
+            </div><br><br>
+
+
+            <label for="password"><strong>Password :</strong></label><br>
+            <input type="password" placeholder="enter password" name="password" id="password" required><br><br>
+
+            <label for="password1"><strong>Confirm password :</strong></label><br>
+            <input type="password" placeholder="confirm password" name="password1" id="password1" required><br><br>
+            <hr>
+
+            <div class="register3">
+                <a href="index2.html"><button class="register2" onclick="validation()"><strong>Register</strong></button></a>
+            </div>
+
+            
+
+           
+
+        </form>
+
+
+
+    </div>
+
+    
+
+
+
+</body>
+</html>

@@ -283,26 +283,3 @@ li.dropdown69
     background-color: turquoise;
     color: #232525;
 }
-
-.footer
-{
-    background-color: #222421 ;
-    height: 100px;
-    width: 100%;
-    margin-top: 100px;
-}
-
-.logofoot
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.textfoot
-{
-    text-align: center;
-    color: whitesmoke;
-    font: serif;
-    font-size: 13px;
-}
